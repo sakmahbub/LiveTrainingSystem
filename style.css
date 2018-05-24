@@ -1,0 +1,117 @@
+body{
+   background: lightblue url("pic/pic5.jpg") no-repeat; 
+   opacity: .9;
+}
+
+#container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#headercontainer{
+
+    height: 80px;
+    width: 100%;
+    background: #ACDDE6;
+    margin: 0 auto; 
+}
+
+#header-left{
+    height: 80px;
+    width: 10%;
+    float: left;
+}
+#header-right{
+    height: 80px;
+    width: 90%;
+    float: left;
+}
+.title{
+    color: indianred;
+    text-align: center;
+
+}
+/************End Body********************************/
+
+#menucontainer{
+
+    height: 35px;
+    width: 100%;
+    background: #006699;
+    text-align: center;
+
+}
+
+#menucontainer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    line-height: 2.2;
+    padding: 0px 20px;
+}
+
+#menucontainer a:hover{
+    color: black;
+}
+/***********menu end*******************************/
+#bodycontainer{
+    height: auto;
+    width: 100%;
+    background: goldenrod;
+    min-height: 500px
+}
+
+#body-left{
+    height: auto;
+    width: 25%;
+    background: wheat;
+    float: left;
+    min-height: 500px
+}
+#body-mid{
+    height: auto;
+    width: 50%;
+    background: white;
+    float: left;
+    min-height: 500px
+}
+
+#body-right{
+    height: auto;
+    width: 25%;
+    background: wheat;
+    float: left;
+    min-height: 500px
+}
+
+/*****************BODY END************************/
+#footercontainer{
+    height: 250px;
+    width: 100%;
+    background: #ACDDE6;
+
+}
+
+.Foot{
+
+    width: 33.33%;
+    float: left;
+    height: 250px; 
+}
+/**********************footer end**************/
+#copyright{
+    height: 40px;
+    width: 100%;
+    background: black;
+    color: white;
+
+}
+.J2EE{
+    line-height: 2.5;
+    text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    padding:0px 10px;
+}
